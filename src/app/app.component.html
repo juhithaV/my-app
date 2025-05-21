@@ -49,5 +49,10 @@
         </tbody>
       </table>
     </div>
+    <ng-container *ngIf="!containsData">
+      <div class="noData">
+        <h3>No Tasks! Hurray!</h3>
+      </div>
+    </ng-container>
   </div>
 </div>
